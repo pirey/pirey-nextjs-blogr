@@ -8,7 +8,8 @@ export const getStaticProps: GetStaticProps = async () => {
     {
       id: "1",
       title: "Prisma is the perfect ORM for Next.js",
-      content: "[Prisma](https://github.com/prisma/prisma) and Next.js go _great_ together!",
+      content:
+        "[Prisma](https://github.com/prisma/prisma) and Next.js go _great_ together!",
       published: false,
       author: {
         name: "Nikolas Burk",
@@ -16,9 +17,9 @@ export const getStaticProps: GetStaticProps = async () => {
       },
     },
   ]
-  return { 
-    props: { feed }, 
-    revalidate: 10 
+  return {
+    props: { feed },
+    revalidate: 10,
   }
 }
 
